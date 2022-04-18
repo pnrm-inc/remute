@@ -1,0 +1,6 @@
+.DS_Store
+Thumb.db
+
+.node-version
+.idea/
+node_modules/

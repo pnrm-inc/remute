@@ -1,0 +1,44 @@
+{
+  "name": "remute",
+  "version": "0.0.1",
+  "description": "React/JSX for Markup Template Engine",
+  "main": "index.js",
+  "files": [
+    "bin",
+    "cli"
+  ],
+  "engines": {
+    "node": "^14.0.0 || >= 16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "remute": "./bin/remute.js"
+  },
+  "author": "Naokazu Shimabukuro",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "@types/react": "^18.0.5",
+    "@types/react-helmet": "^6.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "decache": "^4.6.1",
+    "glob": "^8.0.1",
+    "pretty": "^2.0.0",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^3.14.1",
+    "yargs": "^17.4.1"
+  }
+}
